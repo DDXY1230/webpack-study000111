@@ -16,6 +16,12 @@ module.exports = {
     devServer: {
         open: true, // 让浏览器自动给你打开一些端口,
         port: 9000 // 自定义打开端口
+    },
+    module: {
+        rules: [{
+            test: /\.css$/,
+            use: ['style-loader','css-loader']
+        }]
     }
     // 以下未跑通
     // module: {
