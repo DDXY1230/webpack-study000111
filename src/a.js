@@ -1,3 +1,3 @@
 export default function a() {
-    console.log('module aaa')
+    console.log('module aaa11')
 }
