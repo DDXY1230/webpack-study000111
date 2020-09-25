@@ -5,8 +5,8 @@ import c from './c'
 a()
 b()
 c()
-import './main.css'
-import './app.css'
+import './common/style/main.css'
+import './common/style/app.css'
 
 // import React from 'react'
 // import ReactDOM from 'react-dom'

@@ -9,8 +9,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'index.html',// 自定义创建的名字
-            template: './src/index.html'// 根据自定义模版创建
+            filename: 'index.html', // 自定义创建的名字
+            template: './src/index.html' // 根据自定义模版创建
         })
     ],
     devServer: {
@@ -20,7 +20,10 @@ module.exports = {
     module: {
         rules: [{
             test: /\.css$/,
-            use: ['style-loader','css-loader']
+            use: ['style-loader', 'css-loader']
+        },{
+            test: /\.jpeg$/,
+            use:['file-loader']
         }]
     }
     // 以下未跑通
