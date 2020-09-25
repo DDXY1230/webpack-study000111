@@ -21,10 +21,25 @@ module.exports = {
         rules: [{
             test: /\.css$/,
             use: ['style-loader', 'css-loader']
-        },{
-            test: /\.jpeg$/,
+        },
+        // {
+        //     test: /\.(jpeg|jpg|png|gif)$/,
+        //     use:['file-loader']
+        // },
+        {
+            test: /\.(jpeg|jpg|png|gif)$/,
+            use:[{
+                loader: 'url-loader',
+                options: {
+                    limit: 10000 // 超过就会被打包，不然就是base64
+                }
+            }]// 会把图片编码成base64
+        },
+        {
+            test: /\.(ttf|woff|woff2|eot|svg|otf)$/,
             use:['file-loader']
-        }]
+        }
+    ]
     }
     // 以下未跑通
     // module: {
