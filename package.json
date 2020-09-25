@@ -4,6 +4,7 @@
   "description": "> 代码仓库   https://github.com/DDXY1230/webpack-study000111.git",
   "main": "webpack.config.js",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

@@ -13,6 +13,7 @@ console.log('pic11',pic)//这里的pic经过webpack的file-loader处理之后其
 // 在img标签中可以直接用于src=“pic”
 
 import pic2 from './assets/img/2.jpg'
+import 'font-awesome/css/font-awesome.css'
 
 // import React from 'react'
 // import ReactDOM from 'react-dom'
