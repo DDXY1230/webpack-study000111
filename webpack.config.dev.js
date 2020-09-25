@@ -5,12 +5,23 @@ module.exports = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main_dev.js'
+        filename: 'app.js'
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'aac.html',// 自定义创建的名字
+            filename: 'index.html',// 自定义创建的名字
             template: './src/index.html'// 根据自定义模版创建
         })
-    ]
+    ],
+    // module: {
+    //     rules: [{
+    //         test: /\.js$/,
+    //         use: [{
+    //             loader: 'babel-loader',
+    //             options: {
+    //                 presets: ['react']
+    //             }
+    //         }]
+    //     }]
+    // }
 }

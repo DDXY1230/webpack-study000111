@@ -86,51 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/a.js":
-/*!******************!*\
-  !*** ./src/a.js ***!
-  \******************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return a; });\nfunction a() {\n    console.log('module aaa')\n}\n\n//# sourceURL=webpack:///./src/a.js?");
-
-/***/ }),
-
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a */ \"./src/a.js\");\n/* harmony import */ var _b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b */ \"./src/b.js\");\n/* harmony import */ var _c__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./c */ \"./src/c.js\");\n\n\n\n\nObject(_a__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\nObject(_b__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()\nObject(_c__WEBPACK_IMPORTED_MODULE_2__[\"default\"])()\n\n//# sourceURL=webpack:///./src/app.js?");
-
-/***/ }),
-
-/***/ "./src/b.js":
-/*!******************!*\
-  !*** ./src/b.js ***!
-  \******************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return b; });\nfunction b() {\n    console.log('module bbb')\n}\n\n//# sourceURL=webpack:///./src/b.js?");
-
-/***/ }),
-
-/***/ "./src/c.js":
-/*!******************!*\
-  !*** ./src/c.js ***!
-  \******************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return c; });\nfunction c() {\n    console.log('module ccc')\n}\n\n//# sourceURL=webpack:///./src/c.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Plugin/Preset files are not allowed to export objects, only functions. In /Users/mac/Desktop/webpack-study/node_modules/babel-preset-react/lib/index.js\\n    at createDescriptor (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:178:11)\\n    at /Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:109:50\\n    at Array.map (<anonymous>)\\n    at createDescriptors (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\\n    at createPresetDescriptors (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\\n    at /Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:58:104\\n    at cachedFunction (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/caching.js:62:27)\\n    at cachedFunction.next (<anonymous>)\\n    at evaluateSync (/Users/mac/Desktop/webpack-study/node_modules/gensync/index.js:244:28)\\n    at sync (/Users/mac/Desktop/webpack-study/node_modules/gensync/index.js:84:14)\\n    at presets (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-descriptors.js:29:84)\\n    at mergeChainOpts (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-chain.js:384:26)\\n    at /Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-chain.js:347:7\\n    at Generator.next (<anonymous>)\\n    at buildRootChain (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/config-chain.js:72:36)\\n    at buildRootChain.next (<anonymous>)\\n    at loadPrivatePartialConfig (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/partial.js:99:62)\\n    at loadPrivatePartialConfig.next (<anonymous>)\\n    at Function.<anonymous> (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/partial.js:125:25)\\n    at Generator.next (<anonymous>)\\n    at evaluateSync (/Users/mac/Desktop/webpack-study/node_modules/gensync/index.js:244:28)\\n    at Function.sync (/Users/mac/Desktop/webpack-study/node_modules/gensync/index.js:84:14)\\n    at Object.<anonymous> (/Users/mac/Desktop/webpack-study/node_modules/@babel/core/lib/config/index.js:43:61)\\n    at Object.<anonymous> (/Users/mac/Desktop/webpack-study/node_modules/babel-loader/lib/index.js:151:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/mac/Desktop/webpack-study/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/mac/Desktop/webpack-study/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/mac/Desktop/webpack-study/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/mac/Desktop/webpack-study/node_modules/babel-loader/lib/index.js:5:97)\");\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
